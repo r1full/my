@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <!-- We only include this to explicitly loosen the CSP of various packager environments. It does not provide any security. -->
   <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: blob:">
-  <title>5×7ドットディスプレイ用</title>
+  <title>5×7ドットディスプレイ用 - v.1.0</title>
   <style>
     body {
       color: #ffffff;
@@ -145,7 +145,9 @@
   <meta name="theme-color" content="#000000">
   
 </head>
-<body>
+<body>スペースキーで保存<br>
+  何も入力しないで決定で2進数をクリップボードにコピー<br>
+  「10」を入力で右の変数に10進数を表示
   <div id="app"></div>
 
   <div id="launch" class="screen" hidden title="Click to start">
