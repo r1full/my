@@ -1,0 +1,113 @@
+<br><br>
+
+<footer class="footer">
+  <div class="md-flex md-justify-between">
+    <a href="/my/" class="footer__logo">
+      R1full's Site
+    </a>
+    <div class="grid">
+      <div>
+        <p class="footer__navi-heading">主要ページ</p>
+        <ul class="footer__navi">
+          <li><a href="/my/about/" class="footera">りふるについて</a></li>
+          <li><a href="/my/works/" class="footera">作品</a></li>
+          <li><a href="/my/news/" class="footera">ニュース</a></li>
+          <li><a href="/my/links/" class="footera">リンク</a></li>
+          <li><a href="/my/contact/" class="footera">コンタクト</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="footer__navi-heading">SNS</p>
+        <ul class="footer__navi">
+          <li><a href="//x.com/r1full_" class="footera">X(旧Twitter)</a></li>
+          <li><a href="//youtube.com/@r1full_" class="footera">YouTube</a></li>
+          <li><a href="//discordapp.com/users/1089429999859286146" class="footera">Discord(個人)</a></li>
+          
+        </ul>
+      </div>
+      <div>
+        空間&gt;_&lt;
+      </div>
+    </div>
+  </div>
+  <hr>
+  <br>
+  <p class="copyright">© 2024 - 2026 <a href="/my/" class="footera">r1full</a><br>フッターは力尽きたので<a href="https://jajaaan.co.jp/css/footer-css-html/">コピペ</a>です。<a href="https://dic.pixiv.net/a/%E6%98%8E%E6%97%A5%E3%81%8B%E3%82%89%E6%9C%AC%E6%B0%97%E5%87%BA%E3%81%99">いつか</a>自力で作ります。
+    </p>
+</footer>
+
+
+
+<style>
+    .footerul {
+  padding: 0;
+  list-style: none;
+}
+
+
+hr {
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.footer {
+  padding: 2rem;
+  font-size: 15px;
+  color: #4b5564;
+  background: #ffffff;
+}
+
+.footera {
+  color: #4b5564;
+  text-decoration: none;
+}
+
+.footer__navi-heading {
+  font-weight: 600;
+}
+
+.footer__logo {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  font-size: 30px;
+  color: #4b5564;
+  text-decoration: none;
+}
+
+.footer__navi li {
+  margin-bottom: 0.75rem;
+}
+
+.footer__social a {
+  display: inline-block;
+  width: 24px;
+  opacity: 0.7;
+}
+
+.footer__social a:not(:last-child) {
+  margin-right: 16px;
+}
+
+@media (min-width: 768px) {
+  .md-flex {
+    display: flex;
+  }
+
+  .md-justify-between {
+    justify-content: space-between;
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+</style>
