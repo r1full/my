@@ -1,0 +1,113 @@
+
+/* pc / mobile */
+@media screen and (max-width: 768px){
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: block;
+    }
+}
+@media screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }   
+    .pc {
+        display: block;
+    }
+}
+
+.pc .content {
+    background-color: #e8ded4;
+}
+
+.mobile .content {
+    background-color: black;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+.pc .content .container {
+  padding: 0;
+  width: 60%;
+  margin:auto;
+  background-color: #efefef;
+  border-radius: 15px;
+  
+  box-shadow: 0px 0px 10px 0px rgba(158, 158, 158, .5);
+}
+
+.pc .content .container .content {
+  width: 92%;
+  margin: auto;
+  background-color: #efefef;
+}
+
+/*
+.pc .content  .welcome {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+*/
+
+.pc .content .container .content .t1 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pc .content  .container .content .t1s {
+  font-size: 17px;
+}
+
+.pc .content  .container .content .t1hr {
+  border-top: 3px solid #70abef;
+}
+
+.pc .content  .container .content .t2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.pc .content  .container .content .t3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.pc .content  .container .content .td {
+  padding: 10px;
+}
+
+
+
+
+
+
+.pc .content  .container .content .property-site {
+  background-color: #3dd2ff;
+  padding-left: 15px;
+  padding-right: 15px;
+
+}
+
+.pc .content  .container .content .property-yt {
+  background-color: #ff7070;
+  margin: auto;
+ padding-left: 15px;
+  padding-right: 15px;
+
+}
