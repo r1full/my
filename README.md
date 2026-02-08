@@ -26,6 +26,6 @@ Windows 11 ![Windows](https://img.shields.io/badge/-Windows-0078D6.svg?logo=wind
 VSCode ![VSCode](https://img.shields.io/badge/-Visual%20Studio%20Code-007ACC.svg?logo=visual-studio-code&style=flat)  
 GitHub ![GitHub](https://img.shields.io/badge/-GitHub-181717.svg?logo=github&style=flat)
 ***
-詳しくはこちら　
-<https://r1full.github.io/my/about/>　
+詳しくはこちら  
+<https://r1full.github.io/my/about/>  
 ![Profile Views](https://komarev.com/ghpvc/?username=r1full&color=blue)
