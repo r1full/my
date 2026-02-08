@@ -22,7 +22,7 @@
 }
 
 .mobile .content {
-    background-color: black;
+    background-color: #e8ded4;
 }
 
 
@@ -39,6 +39,8 @@
 a:hover {
   text-decoration: none;
 }
+
+/* pc */
 
 .pc .content .container {
   padding: 0;
@@ -110,4 +112,108 @@ a:hover {
  padding-left: 15px;
   padding-right: 15px;
 
+}
+
+.about-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.about-table th {
+  width : 25%;
+}
+.about-table th, .about-table td {
+    border: 1px solid #999;
+    padding: 8px;
+    text-align: left;
+}
+
+/* mobile */
+
+/* menu by ChatGPT-4 */
+
+.menu {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background: white;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 0px 0px 0px 7px rgba(158, 158, 158, .5);
+}
+
+.menu li {
+  padding: 5px;
+  list-style: none;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #5f6368;
+}
+
+.menu a span {
+  display: block;
+  font-size: 30px;
+}
+
+.mobile .content .container {
+  padding: 0px;
+  width: 91%;
+  margin: auto;
+  border-radius: 15px;
+  
+  background-color: #efefef;
+  
+  box-shadow: 0px 0px 10px 0px rgba(158, 158, 158, .5);
+}
+
+.mobile .content .container .content {
+  width: 92%;
+  margin: auto;
+  background-color: #efefef;
+}
+
+/*
+.mobile .welcome {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+*/
+
+.mobile .content .container .content .t1 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.mobile .content  .container .content .t1s {
+  font-size: 20px;
+}
+
+.mobile .content  .container .content .t1hr {
+  border-top: 3px solid #70abef;
+}
+
+.mobile .content  .container .content .t2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.mobile .content  .container .content .t3 {
+  font-size: 15px;
+  font-weight: bold;
+  color: #4d4d4d;
+}
+
+.mobile .content  .container .content td {
+  padding: 10px;
+  font-size: 9px;
+}
+
+.mobile .content .container .content th {
+  font-size: 9px;
+  font-weight: bold;
 }
