@@ -12,8 +12,8 @@ async function loadTemplate(id, url){
 }
 
 document.addEventListener('DOMContentLoaded', ()=>{
-  loadTemplate('pc-header', 'pc-header.html');
-  loadTemplate('pc-footer', 'pc-footer.html');
-  loadTemplate('mobile-header', 'mobile-header.html');
-  loadTemplate('mobile-footer', 'mobile-footer.html');
+  loadTemplate('pc-header', '/my/pc-header.html');
+  loadTemplate('pc-footer', '/my/pc-footer.html');
+  loadTemplate('mobile-header', '/my/mobile-header.html');
+  loadTemplate('mobile-footer', '/my/mobile-footer.html');
 });
