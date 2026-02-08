@@ -12,7 +12,8 @@ Glitchのサービスが終わってしまったので、GitHubに移植しま�
     <div class="content">
 ...
 ```
-という目も当てられないコードが爆誕しましたが、温かい目で見過ごしてください  m(_ _)m
+という目も当てられないコードが爆誕しましたが、温かい目で見過ごしてください  m(_ _)m  
+（少しずつ整理していくつもりです！）
 ## 触ったことがあるプログラミング・マークアップ言語、フレームワークなど
 ![HTML5](https://img.shields.io/badge/-HTML5-333.svg?logo=html5&style=flat)
 ![CSS3](https://img.shields.io/badge/-CSS3-1572B6.svg?logo=css3&style=flat)
